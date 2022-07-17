@@ -1,0 +1,359 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="styles.css">
+    <title>How to make a paper plane</title>
+  </head>
+
+  <body>
+    <nav id="navbar">
+      <header>Folding Steps</header>
+        <ul>
+      <li><a class="nav-link" href="#Welcome">Welcome</a></li>
+      <li><a class="nav-link" href="#Step_One:_Hotdog_Fold">Step One: Hotdog Fold</a></li>
+      <li><a class="nav-link" href="#Step_Two:_Fold_Corners">Step Two: Fold Corners</a></li>
+      <li><a class="nav-link" href="#Step_Three:_Fold_Again">Step Three: Fold Again</a></li>
+      <li><a class="nav-link" href="#Step_Four:_Make_Wings">Step Four: Make Wings</a></li>
+      <li><a class="nav-link" href="#Step_Five:_Fly!">Step Five: Fly!</a></li>
+      </ul>
+    </nav>
+
+    <main id="main-doc">
+      <h1>How to Make a Paper Airplane</h1>
+
+      <section class="main-section" id="Welcome">
+        <header><h2>Welcome</h2></header>
+        <p>Hello there, paper craft enthusiasts! This kid-friendly instructional tutorial will guide you in making a simple paper airplane.</p>
+         <p>This guide is perfect for:</p> 
+        <ul>
+          <li>Children</li>
+          <li>Adults with Children</li>
+          <li>The Young at Heart</li>
+          <li>Those with an interest in my current <code>HTML</code> and <code>CSS</code> skills</li>
+        </ul>  
+      </section>
+
+      <section class="main-section" id="Step_One:_Hotdog_Fold">
+        <header><h2>Step One: Hotdog Fold<h2></header>
+        <p>Use any sheet of printer-type paper. Your first step is to make a "hotdog fold," otherwise known as a center fold along the longest side of the paper (so it looks like a hotdog bun. How fun!)</p>
+        <div id="paperplane">
+  <div class="planeleft"></div>
+  <div class="planeright"></div>
+</div>
+        <p>Great job! Unfold the paper and proceed to step two.</p> 
+      </section>
+
+      <section class="main-section" id="Step_Two:_Fold_Corners">
+        <header><h2>Step Two: Fold Corners</h2></header>
+        <p>You made it to step two! Fold the top left and right corners of the paper in, to touch the folded line in the center of the paper, right along the dotted lines showing in the image* below.</p>
+        <div id="paperplane">
+  <div class="planeleft"></div>
+  <div class="planeright"></div>
+  <div class="step2left"></div>
+  <div class="step2right"></div>
+</div>
+        <p>The result should look like a tall house. What does your house look like?</p>
+        <p>*I mentioned that you may be interested in my coding skills. I used <code>div elements</code> and <code>CSS styling</code> to create that image. Not perfect, but I've learned so much in this process.</p> 
+      </section>
+
+      <section class="main-section" id="Step_Three:_Fold_Again">
+        <header><h2>Step Three: Fold Again</h2></header>
+        <p>Now, let's make sure our paper airplane has strong wings, and a nice heavy body. Do another fold, again bringing the top left and right sides down to meet in the middle. The image below should help you see what to do.</p>
+        <div id="paperplane">
+          <div class="lefttriangle"></div>
+          <div class="righttriangle"></div>
+          <div class="leftwing"></div>
+          <div class="rightwing"></div>
+          <div class="dottedleft"></div>
+          <div class="dottedright"></div>
+        </div>  
+        <p>Now the folds make it look more like a pointing-up triangle. You're almost done! Give that pointy triangle another hotdog fold along the middle.</p> 
+      </section>
+
+      <section class="main-section" id="Step_Four:_Make_Wings">
+        <header><h2>Step Four: Make Wings</h2></header>
+        <p>Now that you've folded it in half, turn the airplane on one side. You'll fold the top of the wing down to meet the bottom of the airplane. Flip the airplane and fold the other wing to match.</p>
+        <div id="paperplane">
+          <div class="foldwing"></div>
+          <div class="soliddiagonal"></div>
+          <div class="foldwingdotted"></div>
+        </div>  
+        <p>How does it look? How does it feel?</p> 
+      </section>
+
+      <section class="main-section" id="Step_Five:_Fly!">
+        <header><h2>Step Five: Fly!<h2></header>
+        <p>It's a bird! It's a plane! It's your very own PAPER PLANE! Now let's put it to the test. Hold the plane by the bottom and launch!</p>
+        <p>How does it fly? You can make any needed adjustments:
+          <ul>
+            <li>Try rebending the wings to a slightly different angle.</li>
+            <li>Use a paperclip to add weight to the back end.</li>
+            <li>Put a piece of tape along the top fold to keep your wings close together.</li>
+          </ul>        
+        </p> 
+        <p>That's it! Now you know as much as I do about paper airplanes. Thanks for using this instructional website and helping me along my <code>programming_journey</code>. 
+      </section>      
+      
+
+
+    </main>
+  </body>
+</html>  
+
+** end of undefined **
+
+** start of undefined **
+
+html {
+  font-size: 20px;
+}
+
+body {
+  background-color: ghostwhite;
+  font-family: Arial, Tahoma;
+  color: #000066;
+}
+
+#main-doc {
+  position: absolute;
+  margin-left: 310px;
+}
+
+#navbar {
+  position: fixed;
+  height: 100%;
+  min-width: 250px;
+  width: 250px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  border-right: solid black;
+  background-color: #4d4c4b;
+  padding: 20px 0px 0px 5px;
+  box-shadow: 5px 0px 5px grey;
+}
+
+#navbar header {
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: ghostwhite;
+}
+
+#navbar ul {
+  margin-left: -40px;
+  color: ghostwhite;
+}
+
+#navbar li {
+  width: 100%;
+  list-style: none;
+  border: 2px solid black;
+  padding: 5px;
+  font-size: 20px;
+  }
+
+#navbar a {
+  text-decoration: none;
+  color: ghostwhite;
+
+}
+
+#paperplane {
+  text-align: center;
+}  
+
+.planeleft {
+  display: inline-block;
+  width: 75px;
+  height: 200px;
+  border: solid black;
+  border-right: 0;
+  padding: 1px;
+}
+
+.planeright {
+  display: inline-block;
+  width: 75px;
+  height: 200px;
+  border: solid black;
+  border-left: dotted black;
+  margin-left: -4px;
+  padding: 1px;
+}
+
+.step2left {
+  display: inline-block;
+  position: absolute;
+  width: 90px;
+  height: 200px;
+  border-top: dotted black;
+  transform: rotate(-45deg);
+  transform-origin: bottom left;
+  padding: 1px;
+  margin-top: 10px;
+  margin-left: -10px; 
+ }
+
+.step2right {
+  display: inline-block;
+  position: absolute;
+  width: 90px;
+  height: 200px;
+  border-top: dotted black;
+  transform: rotate(45deg);
+  transform-origin: bottom right;
+  margin-top: 10px;
+  margin-left: -242px;
+}
+
+.lefttriangle{
+  display: inline-block;
+  position: absolute;
+  width: 118px;
+  height: 198px;
+  border-top: solid black;
+  transform: rotate(-45deg);
+  transform-origin: bottom left;
+  padding: 1px;
+  margin-top: 20px;
+  margin-left: 145px; 
+  }
+
+.righttriangle{
+  display: inline-block;
+  position: absolute;
+  width: 118px;
+  height: 198px;
+  border-top: solid black;
+  transform: rotate(45deg);
+  transform-origin: bottom right;
+  margin-top: 20px;
+  margin-left: -96px;
+}
+
+.leftwing{
+  display: inline-block;
+  width: 75px;
+  height: 150px;
+  border: solid black;
+  border-top: 0;
+  border-right: 0;
+  padding: 1px;
+  margin-top: 80px;
+}
+
+.rightwing {
+  display: inline-block;
+  width: 75px;
+  height: 150px;
+  border: solid black;
+  border-top: 0;
+  border-left: solid black;
+  margin-left: -4px;
+  margin-top: 80px;
+  padding: 1px;
+}
+
+.dottedleft {
+  display: inline-block;
+  position: absolute;
+  width: 220px;
+  height: 200px;
+  border-top: dotted black;
+  transform: rotate(-67deg);
+  transform-origin: bottom left;
+  padding: 1px;
+  margin-top: 80px;
+  margin-left: 20px; 
+ }
+
+.dottedright {
+  display: inline-block;
+  position: absolute;
+  width: 220px;
+  height: 200px;
+  border-top: dotted black;
+  transform: rotate(67deg);
+  transform-origin: bottom right;
+  margin-top: 80px;
+  margin-left: -405px;
+}
+
+.foldwing {
+  display: inline-block;
+  width: 200px;
+  height: 79px;
+  border: solid black;
+  border-right: 0;
+  border-top: 0;
+  padding: 1px;
+  margin-bottom: 25px;
+
+}
+
+.foldwingdotted {
+  display: inline-block;
+  width: 130px;
+  height: 79px;
+  border: dotted black;
+  border-right: 0;
+  border-bottom: 0;
+  border-left: 0;
+  padding: 1px;
+  margin-top: 0px;
+  margin-left: -205px;
+  margin-bottom: -30px;
+}
+
+.soliddiagonal{
+  display: inline-block;
+  position: absolute;
+  width: 220px;
+  height: 200px;
+  border-top: solid black;
+  transform: rotate(22.5deg);
+  transform-origin: bottom right;
+  margin-top: 65px;
+  margin-left: -300px;
+}
+
+  @media only screen and (max-width: 680px) {
+
+  #navbar ul {
+    height: 200px;
+     }
+
+  #navbar {
+    top: 0;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    max-height: 275px;
+    border: none;
+    z-index: 1;
+    border-bottom: 2px solid;
+    box-shadow: 0px 5px 5px grey;
+  }
+
+  #navbar li{
+    text-align: center;
+    text-size: .8em;
+  }
+
+  #main-doc {
+    position: relative;
+    margin-left: 0px;
+    margin-top: 300px;
+  }
+}
+
+
+** end of undefined **
+
